@@ -222,7 +222,7 @@ td { vertical-align: top; }
 }
 
 .orangeLineOnLeft {
-    border-left:1px solid Darkorange;
+    border-left:1px solid darkorange;
 }
 
 .vRule {
@@ -258,6 +258,27 @@ td { vertical-align: top; }
     position: relative;
 }
 
+#continentMenu .splitter {
+    margin-left: 5px;
+    width: 5px;
+    height: 70px;
+    float: left;
+    position: relative;
+    border-left:1px solid darkorange;
+}
+
+#continentMenu .links {
+    width: 70px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    cursor: default;
+    color: darkorange;
+    background-color: lightgray;
+}
+
 #continentMenu .item {
     width: 70px;
     height: 70px;
@@ -265,15 +286,6 @@ td { vertical-align: top; }
     overflow: hidden;
     position: relative;
     cursor: pointer;
-}
-
-#continentMenu .splitter {
-    margin-left: 5px;
-    width: 5px;
-    height: 70px;
-    float: left;
-    position: relative;
-    border-left:1px solid Darkorange;
 }
 
 #continentMenu .item .mask {
